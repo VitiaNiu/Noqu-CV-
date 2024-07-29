@@ -1,0 +1,141 @@
+body {
+    font-family:'Playfair Display', serif;
+    line-height: 1.6;
+    background-color: #82796a;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #82796a;
+    box-shadow: 0 0 10px rgba(230, 6, 6, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #1c1b18;
+}
+
+header p {
+    margin: 5px 0;
+    color: #1c1b18;
+}
+.profile-picture {
+    margin-left: 50px; /* Adjust this value as needed */
+    text-align: center;
+}
+
+.profile-picture img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 5px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+/* Other sections... */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #1c1b18;
+    padding-bottom: 5px;
+    color: #0e0c0c;
+}
+
+.work-experience, .project, .education {
+    margin-bottom: 20px;
+}
+
+.work-experience h3, .project h3, .education h3 {
+    margin: 0;
+    color: #cdc6bf;
+}
+
+.work-experience p, .project p, .education p {
+    margin: 5px 0;
+    color: #cdc6bf;
+}
+
+.work-experience ul, .skills {
+    list-style-type: disc;
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+
+.work-experience ul li, .skills li {
+    margin-bottom: 5px;
+}
+
+.skills {
+    columns: 2;
+}
+
+.project a {
+    display: block;
+    margin-top: 5px;
+    color: #695a41;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #cdc6bf; /* Example color: Tomato */
+}
+.education-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.education-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.education-image {
+    margin-right: 20px;
+}
+
+.education-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
